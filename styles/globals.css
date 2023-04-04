@@ -1,0 +1,117 @@
+:root {
+	--max-page-width: 1200px;
+}
+
+@font-face {
+	font-family: "Mona Sans";
+	src: url("/fonts/Mona-Sans.woff2") format("woff2 supports variations"),
+		url("/fonts/Mona-Sans.woff2") format("woff2-variations");
+	font-weight: 200 900;
+	font-stretch: 75% 125%;
+}
+html,
+body {
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	height: 100%;
+	margin: 0;
+	overflow-x: hidden;
+	padding: 0;
+}
+body {
+	color: var(--globals-neutral-900);
+	font-family: var(--globals-font-family-sans);
+	font-size: 100%;
+	line-height: var(--globals-font-line-height-default);
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+}
+
+a {
+	color: inherit;
+	color: var(--globals-purple-300);
+	text-decoration: var(--globals-font-text-decoration-none);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+h1,
+h2,
+p,
+ul {
+	margin: 0;
+}
+
+ul {
+	padding: 0;
+	list-style: none;
+}
+
+.sr-only {
+	clip: rect(0 0 0 0);
+	clip-path: inset(100%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+*:focus-visible {
+	outline: 2px solid currentcolor;
+	outline-offset: 2px;
+}
+
+h1 {
+	font-size: var(--globals-font-size-900);
+	font-weight: var(--globals-font-weight-900);
+	line-height: 1.2;
+}
+
+h2 {
+	font-size: var(--globals-font-size-700);
+	font-weight: var(--globals-font-weight-900);
+	line-height: 1.2;
+}
+
+h3 {
+	font-size: var(--globals-font-size-500);
+	font-weight: var(--globals-font-weight-900);
+	line-height: 1.2;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 800px;
+	padding: 0 1rem;
+}
+
+@media (min-width: 48em) {
+	.container {
+		padding: 0 2rem;
+	}
+}
+
+@media (min-width: 75em) {
+	.container {
+		/*max-width: var(--max-page-width);*/
+		max-width: 800px;
+		padding: 0 1rem;
+	}
+}
+
+.full-width {
+	width: 100vw;
+	position: relative;
+	left: 50%;
+	right: 50%;
+	margin-left: -50vw;
+	margin-right: -50vw;
+}

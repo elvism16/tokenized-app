@@ -1,0 +1,38 @@
+.hero {
+	margin: 0 auto;
+	position: relative;
+}
+
+.hero__grid {
+	display: grid;
+}
+
+.hero__content {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.hero__headline {
+	color: var(--globals-neutral-900);
+	font-size: clamp(3rem, 1rem + 8vw, 7rem);
+	line-height: 1;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.hero__headline span {
+	display: block;
+	font-size: clamp(3rem, 1rem + 8vw, 9rem);
+}
+
+.hero__image {
+	display: none;
+}
+
+@media (min-width: 900px) {
+	.hero__image {
+		display: block;
+	}
+}
