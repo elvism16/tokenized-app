@@ -1,0 +1,120 @@
+:root {
+	--color-dark: var(--globals-color-neutral-700);
+	--color-light: var(--globals-color-white);
+	--color-primary: var(--globals-color-blue-700);
+	--size-step-0: clamp(1rem, calc(0.96rem + 0.22vw), 1.13rem);
+	--size-step-1: clamp(1.25rem, calc(1.16rem + 0.43vw), 1.5rem);
+	--size-step-2: clamp(1.56rem, calc(1.41rem + 0.76vw), 2rem);
+	--size-step-3: clamp(1.95rem, calc(1.71rem + 1.24vw), 2.66rem);
+	--size-step-4: clamp(2.44rem, calc(2.05rem + 1.93vw), 3.55rem);
+}
+
+ul,
+ol {
+	padding-inline-start: 1em;
+}
+
+blockquote {
+	padding-inline-start: 1em;
+	border-inline-start: 0.3em solid;
+}
+
+.article {
+	color: var(--color-dark);
+}
+
+article p {
+	font-family: Georgia, serif;
+	font-size: var(--size-step-1);
+	line-height: 1.7;
+	margin-inline: auto;
+}
+
+article > *:not(.article__header) {
+	margin-top: var(--globals-space-800);
+	max-width: 65ch;
+}
+
+article h1 {
+	font-size: var(--size-step-4);
+	line-height: 1.1;
+	max-width: 20ch;
+	text-wrap: balance;
+}
+
+article h2 {
+	font-size: var(--size-step-3);
+	line-height: 1.1;
+	max-width: 28ch;
+	text-wrap: balance;
+}
+
+article h3 {
+	font-size: var(--size-step-2);
+	line-height: 1.1;
+	max-width: 28ch;
+	text-wrap: balance;
+}
+
+blockquote {
+	padding-inline-start: 1em;
+	border-inline-start: 0.3em solid;
+	font-style: italic;
+	font-size: var(--size-step-1);
+	max-width: 50ch;
+}
+
+:is(h1, h2, h3, blockquote) {
+	--flow-space: 1.5em;
+}
+
+:is(h1, h2, h3) + * {
+	--flow-space: 0.5em;
+}
+
+.article > div > * + * {
+	margin-block-start: var(--flow-space, 1em);
+}
+
+article a {
+	color: currentColor;
+	text-decoration-color: var(--color-primary);
+	text-decoration-thickness: 0.3ex;
+	text-underline-offset: 0.3ex;
+}
+
+.article__header {
+	background: linear-gradient(
+		315deg,
+		var(--globals-purple-200) 25%,
+		var(--globals-turquoise-500)
+	);
+	background-color: var(--globals-purple-100);
+}
+
+.article__hero {
+	position: relative;
+}
+
+.article__hero-headline {
+	color: var(--globals-neutral-200);
+	position: absolute;
+	bottom: 1vh;
+	z-index: 1;
+}
+
+.article__hero-media img {
+	display: block;
+	height: 35vh;
+	object-fit: cover;
+	opacity: 0.1;
+	width: 100%;
+}
+
+.article__intro > p {
+	font-size: var(--size-step-1);
+	font-style: italic;
+	max-width: 50ch;
+	font-style: italic;
+	text-wrap: balance;
+}

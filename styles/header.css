@@ -1,0 +1,32 @@
+.header-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 8px 16px;
+	position: relative;
+}
+
+.brand {
+	display: flex;
+	align-items: center;
+	z-index: 110;
+}
+
+.claim {
+	fill: var(--globals-color-blue-700);
+	margin-top: calc(var(--globals-space-100) / 2);
+}
+
+.claim--xl {
+	display: none;
+}
+
+@media (min-width: 42em) {
+	.claim--small {
+		display: none;
+	}
+
+	.claim--xl {
+		display: block;
+	}
+}
