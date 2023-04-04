@@ -89,7 +89,7 @@ h3 {
 
 .container {
 	margin: 0 auto;
-	max-width: 800px;
+	max-width: 100%;
 	padding: 0 1rem;
 }
 
@@ -101,8 +101,7 @@ h3 {
 
 @media (min-width: 75em) {
 	.container {
-		/*max-width: var(--max-page-width);*/
-		max-width: 800px;
+		max-width: var(--max-page-width);
 		padding: 0 1rem;
 	}
 }
