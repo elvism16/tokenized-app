@@ -16,7 +16,7 @@ export const Hero: React.FC<HeroProps> = ({
       <div className="hero__grid">
         <div className="hero__content">
           <h1 className="hero__headline">
-          Design<span> Tokenized</span>
+          Design<span> Tokenized APP</span>
           </h1>
           <div className="btn-group">
             <Button
