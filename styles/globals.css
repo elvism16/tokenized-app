@@ -19,18 +19,19 @@ body {
 	padding: 0;
 }
 body {
-	color: var(--globals-neutral-900);
+	background-color: var(--globals-color-white);
+	color: var(--globals-neutral-700);
 	font-family: var(--globals-font-family-sans);
 	font-size: 100%;
-	line-height: var(--globals-font-line-height-default);
+	line-height: 1.618;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 }
 
 a {
 	color: inherit;
-	color: var(--globals-purple-300);
-	text-decoration: var(--globals-font-text-decoration-none);
+	color: var(--globals-color-blue-700);
+	text-decoration: var(--globals-font-text-decoration-underline);
 }
 
 * {
@@ -101,7 +102,7 @@ h3 {
 
 @media (min-width: 75em) {
 	.container {
-		max-width: var(--max-page-width);
+		max-width: 1200px;
 		padding: 0 1rem;
 	}
 }

@@ -5,10 +5,10 @@
 .section__hero {
 	background: linear-gradient(
 		315deg,
-		var(--globals-purple-200) 25%,
-		var(--globals-turquoise-500)
+		var(--globals-color-blue-700) 25%,
+		var(--globals-color-orange-700)
 	);
-	background-color: var(--globals-neutral-900);
+	background-color: var(--globals-color-neutral-700);
 	padding: calc(3 * var(--globals-space-800)) 0;
 }
 
@@ -17,23 +17,8 @@
 }
 
 .section__heading {
-	background-color: var(--globals-neutral-100);
-	border: var(--globals-border-width-700) solid var(--globals-neutral-900);
-	display: inline-block;
+	color: var(--globals-color-neutral-700);
 	margin-bottom: var(--globals-space-600);
-	padding: var(--globals-space-100) var(--globals-space-300);
-}
-
-.section__heading:before {
-	background-color: var(--globals-neutral-900);
-	content: "";
-	display: block;
-	height: var(--globals-border-width-700);
-	width: 100%;
-	position: absolute;
-	left: 0;
-	top: 2rem;
-	z-index: -1;
 }
 
 .section .card {

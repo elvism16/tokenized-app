@@ -15,7 +15,7 @@
 }
 
 .hero__headline {
-	color: var(--globals-neutral-900);
+	color: var(--globals-color-neutral-700);
 	font-size: clamp(3rem, 1rem + 8vw, 7rem);
 	line-height: 1;
 	text-align: center;

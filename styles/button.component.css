@@ -1,36 +1,36 @@
 .btn {
 	border-radius: 3px;
-	color: var(--globals-neutral-900);
+	color: var(--globals-color-white);
 	cursor: pointer;
 	display: inline-block;
 	font-weight: var(--globals-font-weight-700);
 	padding: var(--globals-space-150) var(--globals-space-200);
 	text-decoration: var(--globals-font-text-decoration-none);
-	text-align: var(--globals-font-text-align-center);
+	text-align: left;
 	transition: var(--globals-transition-100);
 }
 
 .btn--primary {
-	background-color: var(--globals-purple-100);
-	border: var(--globals-border-width-300) solid var(--globals-purple-100);
+	background-color: var(--globals-color-blue-700);
+	border: var(--globals-border-width-100) solid var(--globals-color-blue-500);
 }
 
 .btn--primary:hover,
 .btn--primary:focus,
 .btn--primary:active {
-	background-color: var(--globals-purple-200);
+	background-color: var(--globals-color-blue-500);
 	transition: var(--globals-transition-100);
 }
 
 .btn--secondary {
-	background-color: var(--globals-turquoise-100);
-	border: 3px solid var(--globals-turquoise-100);
+	background-color: var(--globals-color-orange-700);
+	border: 1px solid var(--globals-color-orange-500);
 }
 
 .btn--secondary:hover,
 .btn--secondary:focus,
 .btn--secondary:active {
-	background-color: var(--globals-turquoise-400);
+	background-color: var(--globals-color-orange-500);
 	transition: var(--globals-transition-100);
 }
 
