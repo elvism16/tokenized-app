@@ -287,32 +287,40 @@
       }
     },
     "line-height": {
+      "1": {
+        "value": "1",
+        "type": "lineHeights"
+      },
       "100": {
-        "value": "16",
+        "value": "1rem",
         "type": "lineHeights"
       },
       "150": {
-        "value": "24",
+        "value": "1.5rem",
         "type": "lineHeights"
       },
       "200": {
-        "value": "32",
+        "value": "2rem",
         "type": "lineHeights"
       },
       "250": {
-        "value": "40",
+        "value": "2.5rem",
         "type": "lineHeights"
       },
       "275": {
-        "value": "42",
+        "value": "2.625rem",
         "type": "lineHeights"
       },
       "300": {
-        "value": "48",
+        "value": "3rem",
         "type": "lineHeights"
       },
       "350": {
-        "value": "54",
+        "value": "3.375rem",
+        "type": "lineHeights"
+      },
+      "default": {
+        "value": "1.618",
         "type": "lineHeights"
       }
     },
@@ -423,6 +431,26 @@
         "type": "dropShadow"
       },
       "type": "boxShadow"
+    }
+  },
+  "max-page-width": {
+    "default": {
+      "value": "1200px",
+      "type": "other"
+    }
+  },
+  "breakpoints": {
+    "small": {
+      "value": "30em",
+      "type": "other"
+    },
+    "medium": {
+      "value": "48em",
+      "type": "other"
+    },
+    "large": {
+      "value": "75em",
+      "type": "other"
     }
   }
 }
