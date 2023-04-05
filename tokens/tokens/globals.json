@@ -452,5 +452,19 @@
       "value": "75em",
       "type": "other"
     }
+  },
+  "transition": {
+    "100": {
+      "value": "all 0.1s ease-in-out",
+      "type": "other"
+    },
+    "200": {
+      "value": "all 0.2s ease-in-out",
+      "type": "other"
+    },
+    "300-opacity": {
+      "value": "opacity ease-in 0.3s",
+      "type": "other"
+    }
   }
 }
