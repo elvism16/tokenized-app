@@ -29,16 +29,16 @@
           "type": "color"
         }
       }
-    }
-  },
-  "line-height": {
-    "heading": {
-      "value": "{font.line-height.1}",
-      "type": "lineHeights"
     },
-    "copy": {
-      "value": "{font.line-height.default}",
-      "type": "lineHeights"
+    "line-height": {
+      "heading": {
+        "value": "{font.line-height.1}",
+        "type": "lineHeights"
+      },
+      "copy": {
+        "value": "{font.line-height.default}",
+        "type": "lineHeights"
+      }
     }
   }
 }
