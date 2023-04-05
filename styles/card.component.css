@@ -67,7 +67,7 @@
 	text-align: left;
 }
 
-@container (min-width: 700px) {
+@container (min-width: 48em) {
 	.card__wrapper {
 		flex-direction: row;
 		gap: var(--space-400);
