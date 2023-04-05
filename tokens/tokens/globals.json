@@ -341,12 +341,38 @@
         "value": "none",
         "type": "textCase"
       }
+    },
+    "text-align": {
+      "center": {
+        "value": "center",
+        "type": "other"
+      },
+      "left": {
+        "value": "left",
+        "type": "other"
+      },
+      "right": {
+        "value": "right",
+        "type": "other"
+      }
     }
   },
   "border": {
     "width": {
       "100": {
         "value": "1px",
+        "type": "borderWidth"
+      },
+      "200": {
+        "value": "2px",
+        "type": "borderWidth"
+      },
+      "300": {
+        "value": "3px",
+        "type": "borderWidth"
+      },
+      "500": {
+        "value": "5px",
         "type": "borderWidth"
       }
     },
