@@ -54,12 +54,14 @@ export default function Home() {
 						<h2>Donec id elit non mi porta gravida at eget metus</h2>
 						<p>
 							Aenean eu leo quam.{" "}
-							<a href='http://example.com'>Pellentesque ornare sem</a> lacinia
-							quam venenatis vestibulum. Morbi leo risus, porta ac consectetur
-							ac, vestibulum at eros. Integer posuere erat a ante venenatis
-							dapibus posuere velit aliquet. Nulla vitae elit libero, a pharetra
-							augue. Maecenas sed diam eget risus varius blandit sit amet non
-							magna.
+							<a href='http://bitgrip.com' rel='external'>
+								Pellentesque ornare sem
+							</a>{" "}
+							lacinia quam venenatis vestibulum. Morbi leo risus, porta ac
+							consectetur ac, vestibulum at eros. Integer posuere erat a ante
+							venenatis dapibus posuere velit aliquet. Nulla vitae elit libero,
+							a pharetra augue. Maecenas sed diam eget risus varius blandit sit
+							amet non magna.
 						</p>
 						<p>
 							Maecenas sed diam eget risus varius blandit sit amet non magna.

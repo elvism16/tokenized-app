@@ -5,22 +5,22 @@
 .section__hero {
 	background: linear-gradient(
 		315deg,
-		var(--globals-color-blue-700) 25%,
-		var(--globals-color-orange-700)
+		var(--color-blue-300) 25%,
+		var(--color-orange-300)
 	);
-	background-color: var(--globals-color-neutral-700);
-	padding: calc(3 * var(--globals-space-800)) 0;
+	background-color: var(--color-blue-700);
+	padding: calc(3 * var(--space-800)) 0;
 }
 
 .section__hero ~ * {
-	margin: calc(2 * var(--globals-space-600)) 0 0;
+	margin: calc(2 * var(--space-600)) 0 0;
 }
 
 .section__heading {
-	color: var(--globals-color-neutral-700);
-	margin-bottom: var(--globals-space-600);
+	color: var(--color-neutral-700);
+	margin-bottom: var(--space-600);
 }
 
 .section .card {
-	margin-bottom: var(--globals-space-600);
+	margin-bottom: var(--space-600);
 }

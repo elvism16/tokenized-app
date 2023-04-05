@@ -1,40 +1,40 @@
 .btn {
-	border-radius: 3px;
-	color: var(--globals-color-white);
+	border-radius: var(--border-radius-0);
+	color: var(--color-white);
 	cursor: pointer;
 	display: inline-block;
-	font-weight: var(--globals-font-weight-700);
-	padding: var(--globals-space-150) var(--globals-space-200);
-	text-decoration: var(--globals-font-text-decoration-none);
+	font-weight: var(--font-weight-700);
+	padding: var(--space-150) var(--space-200);
+	text-decoration: var(--font-text-decoration-none);
 	text-align: left;
-	transition: var(--globals-transition-100);
+	transition: var(--transition-100);
 }
 
 .btn--primary {
-	background-color: var(--globals-color-blue-700);
-	border: var(--globals-border-width-100) solid var(--globals-color-blue-500);
+	background-color: var(--color-blue-700);
+	border: var(--border-width-100) solid var(--color-blue-500);
 }
 
 .btn--primary:hover,
 .btn--primary:focus,
 .btn--primary:active {
-	background-color: var(--globals-color-blue-500);
-	transition: var(--globals-transition-100);
+	background-color: var(--color-blue-500);
+	transition: var(--transition-100);
 }
 
 .btn--secondary {
-	background-color: var(--globals-color-orange-700);
-	border: 1px solid var(--globals-color-orange-500);
+	background-color: var(--color-orange-700);
+	border: 1px solid var(--color-orange-500);
 }
 
 .btn--secondary:hover,
 .btn--secondary:focus,
 .btn--secondary:active {
-	background-color: var(--globals-color-orange-500);
-	transition: var(--globals-transition-100);
+	background-color: var(--color-orange-500);
+	transition: var(--transition-100);
 }
 
 .btn-group {
 	display: flex;
-	gap: var(--globals-space-150);
+	gap: var(--space-150);
 }

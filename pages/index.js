@@ -16,7 +16,10 @@ export default function Home() {
 			<main>
 				{/* hero section */}
 				<Section type='hero'>
-					<Hero />
+					<Hero
+						btnLabelPrimary="What's a token?"
+						btnLabelSecondary='Get in touch'
+					/>
 				</Section>
 
 				<Section type='page' heading='From the Blog'>

@@ -3,6 +3,8 @@ import Button from "../button/button";
 export interface HeroProps {
   imgSrc?: string;
   imgAlt?: string;
+  btnLabelPrimary?: string
+  btnLabelSecondary?: string
 }
 
 // todo: if image change grid / grid via tokens / css for grid variants
@@ -10,6 +12,8 @@ export interface HeroProps {
 export const Hero: React.FC<HeroProps> = ({
   imgSrc,
   imgAlt,
+  btnLabelPrimary,
+  btnLabelSecondary
 }: HeroProps) => {
   return (
     <div className="hero">
@@ -19,15 +23,15 @@ export const Hero: React.FC<HeroProps> = ({
           Design<span> Tokenized</span>
           </h1>
           <div className="btn-group">
-            <Button
+            {btnLabelPrimary && <Button
               type='primary'
               target='http://bitgrip.com'
               onClick={() => console.log("You clicked the button!")}
-            >Get it</Button>
-            <Button
+            >{btnLabelPrimary}</Button>}
+            {btnLabelSecondary && <Button
               target='http://bitgrip.com'
               onClick={() => console.log("You clicked the button!")}
-            >Try again</Button>
+            >{btnLabelSecondary}</Button>}
           </div>
         </div>
         {imgSrc && <img className="hero__image" src={imgSrc} alt={imgAlt} />}

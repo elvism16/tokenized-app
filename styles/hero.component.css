@@ -11,13 +11,13 @@
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-	gap: 2rem;
+	gap: var(--space-400);
 }
 
 .hero__headline {
-	color: var(--globals-color-neutral-700);
+	color: var(--semantics-color-headline);
 	font-size: clamp(3rem, 1rem + 8vw, 7rem);
-	line-height: 1;
+	line-height: var(--semantics-line-height-heading);
 	text-align: center;
 	text-transform: uppercase;
 }

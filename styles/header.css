@@ -2,19 +2,23 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 8px 16px;
+	padding: var(--space-100) var(--space-200);
 	position: relative;
+}
+
+.header-wrapper:has(.is-open) .claim {
+	fill: var(--color-orange-700);
 }
 
 .brand {
 	display: flex;
 	align-items: center;
-	z-index: 110;
+	z-index: var(--z-index-5);
 }
 
 .claim {
-	fill: var(--globals-color-blue-700);
-	margin-top: calc(var(--globals-space-100) / 2);
+	fill: var(--color-blue-700);
+	margin-top: calc(var(--space-100) / 2);
 }
 
 .claim--xl {
