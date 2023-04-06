@@ -17,10 +17,10 @@ export const Hero: React.FC<HeroProps> = ({
 }: HeroProps) => {
   return (
     <div className="hero">
-      <div className="hero__grid">
+      <div className={`hero__grid ${imgSrc ? "hero__grid--has-image" : ""}`}>
         <div className="hero__content">
           <h1 className="hero__headline">
-          Design<span> Tokenized</span>
+            The benefits of using a consistent system
           </h1>
           <div className="btn-group">
             {btnLabelPrimary && <Button

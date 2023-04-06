@@ -37,4 +37,5 @@
 .btn-group {
 	display: flex;
 	gap: var(--space-150);
+	width: 100%;
 }

@@ -17,8 +17,9 @@ export default function Home() {
 				{/* hero section */}
 				<Section type='hero'>
 					<Hero
-						btnLabelPrimary="What's a token?"
 						btnLabelSecondary='Get in touch'
+						imgSrc='/img/hero_alt_01.png'
+						imgAlt='design tokens - what are they?'
 					/>
 				</Section>
 
