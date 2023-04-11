@@ -67,6 +67,10 @@
 	text-align: left;
 }
 
+.card__image {
+	width: 100%;
+}
+
 @container (min-width: 48em) {
 	.card__wrapper {
 		flex-direction: row;
