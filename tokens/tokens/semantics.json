@@ -1,13 +1,23 @@
 {
   "semantics": {
     "color": {
-      "copy": {
-        "value": "{color.neutral.700}",
-        "type": "color"
-      },
-      "headline": {
-        "value": "{color.neutral.700}",
-        "type": "color"
+      "font": {
+        "copy-onLight": {
+          "value": "{color.neutral.700}",
+          "type": "color"
+        },
+        "headline-onLight": {
+          "value": "{color.neutral.700}",
+          "type": "color"
+        },
+        "headline-onDark": {
+          "value": "{color.white}",
+          "type": "color"
+        },
+        "copy-onDark": {
+          "value": "{color.white}",
+          "type": "color"
+        }
       },
       "secondary": {
         "background": {

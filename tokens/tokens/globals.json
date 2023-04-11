@@ -492,5 +492,23 @@
       "value": "opacity ease-in 0.3s",
       "type": "other"
     }
+  },
+  "layout": {
+    "grid": {
+      "col-count": {
+        "1": {
+          "value": "1",
+          "type": "other"
+        },
+        "2": {
+          "value": "2",
+          "type": "other"
+        },
+        "3": {
+          "value": "3",
+          "type": "other"
+        }
+      }
+    }
   }
 }

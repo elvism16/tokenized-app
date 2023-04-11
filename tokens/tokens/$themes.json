@@ -3,7 +3,8 @@
     "id": "51b5450011830451704d1ae622deb8de3c77e8db",
     "name": "defafult",
     "selectedTokenSets": {
-      "globals": "enabled"
+      "globals": "enabled",
+      "semantics": "enabled"
     },
     "$figmaStyleReferences": {}
   }
