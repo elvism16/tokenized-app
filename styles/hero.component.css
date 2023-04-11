@@ -15,11 +15,12 @@
 }
 
 .hero__headline {
-	color: var(--color-white);
+	color: var(--semantics-color-headline);
 	font-size: clamp(3rem, 1rem + 8vw, 5rem);
 	font-weight: 200;
 	line-height: var(--semantics-line-height-heading);
-	text-wrap: balance;
+	text-align: center;
+	text-transform: uppercase;
 	transition: var(--transition-200);
 }
 
