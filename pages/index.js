@@ -9,7 +9,7 @@ export default function Home() {
 	return (
 		<>
 			<Head>
-				<title>Get Tokenized</title>
+				<title>Dark Tokenized</title>
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 			<Header />

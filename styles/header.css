@@ -4,10 +4,12 @@
 	justify-content: space-between;
 	padding: var(--space-100) var(--space-200);
 	position: relative;
+	transition: var(--transition-200);
 }
 
 .header-wrapper:has(.is-open) .claim {
 	fill: var(--color-orange-700);
+	transition: var(--transition-200);
 }
 
 .brand {
