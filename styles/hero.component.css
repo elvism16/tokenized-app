@@ -47,6 +47,10 @@
 	display: none;
 }
 
+.hero__grid--has-image .hero__headline {
+	text-align: var(--font-text-align-left);
+}
+
 @media (min-width: 48em) {
 	.hero__grid--has-image {
 		gap: var(--space-800);
