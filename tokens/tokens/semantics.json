@@ -50,5 +50,21 @@
         "type": "lineHeights"
       }
     }
+  },
+  "layout": {
+    "col-count": {
+      "blog": {
+        "value": "{layout.grid.col-count.1}",
+        "type": "other"
+      },
+      "benefits": {
+        "value": "{layout.grid.col-count.3}",
+        "type": "other"
+      },
+      "mission": {
+        "value": "{layout.grid.col-count.1}",
+        "type": "other"
+      }
+    }
   }
 }
