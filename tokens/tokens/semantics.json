@@ -21,21 +21,21 @@
       },
       "secondary": {
         "background": {
-          "value": "{color.orange.700}",
+          "value": "{color.secondary.700}",
           "type": "color"
         },
         "hover": {
-          "value": "{color.orange.500}",
+          "value": "{color.secondary.500}",
           "type": "color"
         }
       },
       "primary": {
         "background": {
-          "value": "{color.blue.700}",
+          "value": "{color.primary.700}",
           "type": "color"
         },
         "hover": {
-          "value": "{color.blue.500}",
+          "value": "{color.primary.500}",
           "type": "color"
         }
       }
