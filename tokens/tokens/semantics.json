@@ -1,42 +1,62 @@
 {
   "semantics": {
     "color": {
-      "font": {
-        "copy-onLight": {
-          "value": "{color.neutral.700}",
+      "text": {
+        "dark": {
+          "value": "{color.black}",
           "type": "color"
         },
-        "headline-onLight": {
-          "value": "{color.neutral.700}",
-          "type": "color"
-        },
-        "headline-onDark": {
+        "light": {
           "value": "{color.white}",
           "type": "color"
         },
-        "copy-onDark": {
-          "value": "{color.white}",
-          "type": "color"
-        }
-      },
-      "secondary": {
-        "background": {
-          "value": "{color.secondary.700}",
-          "type": "color"
-        },
-        "hover": {
-          "value": "{color.secondary.500}",
-          "type": "color"
-        }
-      },
-      "primary": {
-        "background": {
+        "brand": {
           "value": "{color.primary.700}",
           "type": "color"
         },
-        "hover": {
-          "value": "{color.primary.500}",
+        "gray": {
+          "value": "{color.neutral.500}",
           "type": "color"
+        }
+      },
+      "headline": {
+        "dark": {
+          "value": "{color.black}",
+          "type": "color"
+        },
+        "light": {
+          "value": "{color.white}",
+          "type": "color"
+        },
+        "brand": {
+          "value": "{color.primary.700}",
+          "type": "color"
+        }
+      },
+      "border": {
+        "brand": {
+          "value": "{color.primary.700}",
+          "type": "color"
+        }
+      },
+      "background": {
+        "interaction": {
+          "primary": {
+            "value": "{color.primary.700}",
+            "type": "color"
+          },
+          "primary-inverted": {
+            "value": "{color.white}",
+            "type": "color"
+          },
+          "secondary": {
+            "value": "{color.neutral.500}",
+            "type": "color"
+          },
+          "secondary-inverted": {
+            "value": "{color.white}",
+            "type": "color"
+          }
         }
       }
     },
