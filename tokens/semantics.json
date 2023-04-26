@@ -3,7 +3,7 @@
     "color": {
       "text": {
         "dark": {
-          "value": "{color.black}",
+          "value": "{color.neutral.700}",
           "type": "color"
         },
         "light": {
@@ -21,7 +21,7 @@
       },
       "headline": {
         "dark": {
-          "value": "{color.black}",
+          "value": "{color.neutral.700}",
           "type": "color"
         },
         "light": {
@@ -55,6 +55,24 @@
           },
           "secondary-inverted": {
             "value": "{color.white}",
+            "type": "color"
+          }
+        },
+        "section": {
+          "primary": {
+            "value": "{color.primary.700}",
+            "type": "color"
+          },
+          "gray": {
+            "value": "{color.neutral.200}",
+            "type": "color"
+          },
+          "light": {
+            "value": "{color.white}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{color.neutral.700}",
             "type": "color"
           }
         }
