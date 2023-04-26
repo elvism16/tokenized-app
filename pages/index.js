@@ -16,8 +16,10 @@ export default function Home() {
 				{/* hero section */}
 				<Section type='hero'>
 					<Hero
-						btnLabelSecondary='Get in touch'
-						imgSrc='/img/hero_alt_01.png'
+						headline='Bring your design system to life'
+						byline='Whether you’re sending big files for fun or delivering work for clients—keep creative projects moving forward with WeTransfer.'
+						btnLabelPrimary='Get started'
+						imgSrc='/img/welcome02.png'
 						imgAlt='design tokens - what are they?'
 					/>
 				</Section>

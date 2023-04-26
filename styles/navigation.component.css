@@ -134,7 +134,7 @@
 }
 
 .menu-button .icon {
-	fill: var(--color-primary-700);
+	fill: var(--color-white);
 	transition: var(--transition-200);
 }
 

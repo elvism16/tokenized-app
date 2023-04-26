@@ -3,6 +3,8 @@ import Button from "../button/button";
 export interface HeroProps {
   imgSrc?: string;
   imgAlt?: string;
+  byline?: string;
+  headline?: string;
   btnLabelPrimary?: string
   btnLabelSecondary?: string
 }
@@ -12,16 +14,19 @@ export interface HeroProps {
 export const Hero: React.FC<HeroProps> = ({
   imgSrc,
   imgAlt,
+  headline,
+  byline,
   btnLabelPrimary,
   btnLabelSecondary
 }: HeroProps) => {
   return (
     <div className="hero">
-      <div className="hero__grid">
+      <div className={`hero__grid ${imgSrc ? "hero__grid--has-image" : ""}`}>
         <div className="hero__content">
           <h1 className="hero__headline">
-          Design<span> Tokenized</span>
+            {headline}
           </h1>
+          {byline && <p className="hero__byline">{byline}</p>}
           <div className="btn-group">
             {btnLabelPrimary && <Button
               type='primary'

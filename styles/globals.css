@@ -6,6 +6,11 @@
 	font-stretch: 75% 125%;
 }
 
+@font-face {
+	font-family: "GTSuper";
+	src: url("/fonts/GT-Super-Display-Super.woff2") format("woff2");
+}
+
 * {
 	box-sizing: border-box;
 }
