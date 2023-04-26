@@ -46,7 +46,7 @@
 }
 
 .nav-item > a {
-	color: #fff;
+	color: var(--color-primary-700);
 	padding: var(--space-150);
 	position: relative;
 	text-decoration: none;
@@ -55,7 +55,7 @@
 
 .nav-item > a:hover,
 .nav-item > a:focus {
-	color: var(--color-orange-600);
+	color: var(--color-white);
 	transition: var(--transition-200);
 }
 
@@ -134,11 +134,11 @@
 }
 
 .menu-button .icon {
-	fill: var(--color-blue-700);
+	fill: var(--color-primary-700);
 	transition: var(--transition-200);
 }
 
 .menu-button.is-open .icon {
-	fill: var(--color-orange-600);
+	fill: var(--color-primary-600);
 	transition: var(--transition-200);
 }

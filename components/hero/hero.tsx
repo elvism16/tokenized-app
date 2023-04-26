@@ -17,19 +17,19 @@ export const Hero: React.FC<HeroProps> = ({
 }: HeroProps) => {
   return (
     <div className="hero">
-      <div className={`hero__grid ${imgSrc ? "hero__grid--has-image" : ""}`}>
+      <div className="hero__grid">
         <div className="hero__content">
           <h1 className="hero__headline">
-            The benefits of using a consistent system
+          Design<span> Tokenized</span>
           </h1>
           <div className="btn-group">
             {btnLabelPrimary && <Button
               type='primary'
-              target='http://bitgrip.com'
+              target='/article'
               onClick={() => console.log("You clicked the button!")}
             >{btnLabelPrimary}</Button>}
             {btnLabelSecondary && <Button
-              target='http://bitgrip.com'
+              target='/article'
               onClick={() => console.log("You clicked the button!")}
             >{btnLabelSecondary}</Button>}
           </div>

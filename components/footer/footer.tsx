@@ -9,7 +9,16 @@ export const Footer: React.FC<FooterProps> = ({
 }: FooterProps) => {
   return (
     <footer className="footer">
-      The Footer
+      <div className="footer__content">
+        <ul className="footer__nav">
+          <li className="footer__nav-item"><a href="/">Home</a></li>
+          <li className="footer__nav-item"><a href="/article">Contact</a></li>
+          <li className="footer__nav-item"><a href="/article">Careers</a></li>
+          <li className="footer__nav-item"><a href="/article">Help Center</a></li>
+          <li className="footer__nav-item"><a href="/article">Privacy</a></li>
+          <li className="footer__nav-item"><a href="/article">Terms of use</a></li>
+        </ul>
+      </div>
       {children}
     </footer>
   );

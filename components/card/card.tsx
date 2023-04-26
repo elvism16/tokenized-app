@@ -19,7 +19,7 @@ export const Card: React.FC<CardProps> = ({
   linkTarget
 }: CardProps) => {
   return (
-    <div className="card">
+    <div className={`card ${category ? "card__blog" : ""}`}>
       <div className="card__wrapper">
         {imgSrc && <div className="card__media">
           <a href={linkTarget} rel="bookmark">
@@ -28,7 +28,7 @@ export const Card: React.FC<CardProps> = ({
         </div>}
         <div className="card__body">
           <div className="card__body-wrap">
-            <a href={catTarget} className="card__category">{category}</a>
+            {category && <a href={catTarget} className="card__category">{category}</a>}
             <Heading as="h3" className="card__headline"><a href={linkTarget} rel="bookmark">{heading}</a></Heading>
             {paragraph && <p className="card__text">{paragraph}</p>}
           </div>

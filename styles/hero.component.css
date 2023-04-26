@@ -15,27 +15,12 @@
 }
 
 .hero__headline {
-	color: var(--semantics-color-headline);
+	color: var(--semantics-color-headline-light);
 	font-size: clamp(3rem, 1rem + 8vw, 7rem);
-	font-weight: 200;
 	line-height: var(--semantics-line-height-heading);
 	text-align: center;
 	text-transform: uppercase;
 	transition: var(--transition-200);
-}
-
-@media (min-width: 30em) {
-	.hero__headline {
-		font-weight: 600;
-		transition: var(--transition-200);
-	}
-}
-
-@media (min-width: 48em) {
-	.hero__headline {
-		font-weight: 900;
-		transition: var(--transition-200);
-	}
 }
 
 .hero__headline span {
