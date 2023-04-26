@@ -13,7 +13,7 @@
 }
 
 .section__hero ~ * {
-	margin: calc(4 * var(--space-600)) 0 0;
+	margin: calc(2 * var(--space-600)) 0 0;
 }
 
 .section__heading {
@@ -29,6 +29,10 @@
 }
 
 @media (min-width: 48em) {
+	.section__hero ~ * {
+		margin: calc(4 * var(--space-600)) 0 0;
+	}
+
 	.section__single .container {
 		display: grid;
 		grid-template-columns: repeat(var(--layout-grid-col-count-1), 1fr);

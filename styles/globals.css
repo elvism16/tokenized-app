@@ -74,20 +74,20 @@ ul {
 }
 
 h1 {
+	font-family: "GTSuper", serif;
 	font-size: var(--font-size-900);
-	font-weight: var(--font-weight-900);
 	line-height: var(--semantics-line-height-heading);
 }
 
 h2 {
+	font-family: "GTSuper", serif;
 	font-size: var(--font-size-700);
-	font-weight: var(--font-weight-900);
 	line-height: var(--semantics-line-height-heading);
 }
 
 h3 {
+	font-family: "GTSuper", serif;
 	font-size: var(--font-size-500);
-	font-weight: var(--font-weight-900);
 	line-height: var(--semantics-line-height-heading);
 }
 

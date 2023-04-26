@@ -1,5 +1,5 @@
 .btn {
-	border-radius: 2rem;
+	border-radius: var(--border-radius-200);
 	color: var(--color-white);
 	cursor: pointer;
 	display: inline-block;

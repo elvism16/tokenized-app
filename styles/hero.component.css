@@ -15,7 +15,6 @@
 
 .hero__headline {
 	color: var(--semantics-color-headline-light);
-	font-family: "GTSuper", serif;
 	font-size: clamp(3rem, 1rem + 8vw, 7rem);
 	line-height: var(--semantics-line-height-heading);
 	text-align: center;
