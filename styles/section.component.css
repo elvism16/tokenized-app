@@ -28,6 +28,11 @@
 	margin-bottom: var(--space-600);
 }
 
+.section__triple .container {
+	display: grid;
+	gap: 24px;
+}
+
 @media (min-width: 48em) {
 	.section__hero ~ * {
 		margin: calc(4 * var(--space-600)) 0 0;
@@ -46,9 +51,7 @@
 	}
 
 	.section__triple .container {
-		display: grid;
 		grid-template-columns: repeat(var(--layout-grid-col-count-3), 1fr);
-		gap: 24px;
 	}
 }
 

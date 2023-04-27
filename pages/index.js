@@ -3,6 +3,7 @@ import Header from "../components/header/header";
 import Section from "../components/section/section";
 import Hero from "../components/hero/hero";
 import Teaser from "../components/teaser/teaser";
+import Box from "../components/box/box";
 import Footer from "../components/footer/footer";
 
 export default function Home() {
@@ -26,7 +27,7 @@ export default function Home() {
 				</Section>
 				<Section>
 					<Teaser
-						imgSrc='/img/welcome02.png'
+						imgSrc='/img/welcome04.png'
 						imgAlt='design tokens - what are they?'
 						kicker='All in one place'
 						headline='Build a design system you can use — fast'
@@ -36,7 +37,7 @@ export default function Home() {
 				<Section>
 					<Teaser
 						type='reverse'
-						imgSrc='/img/welcome02.png'
+						imgSrc='/img/welcome05.png'
 						imgAlt='design tokens - what are they?'
 						kicker='Make it easy'
 						headline='Unite design and engineering in one design system'
@@ -45,7 +46,7 @@ export default function Home() {
 				</Section>
 				<Section>
 					<Teaser
-						imgSrc='/img/welcome02.png'
+						imgSrc='/img/welcome06.png'
 						imgAlt='design tokens - what are they?'
 						kicker='Collaboration is the key'
 						headline='Make team-wide adoption and collaboration easy'
@@ -53,10 +54,30 @@ export default function Home() {
 					/>
 				</Section>
 				<Section
-					type='double'
+					type='triple'
 					bground
 					heading='Simple plans that scale with your team'
-				></Section>
+				>
+					<Box
+						title='Free'
+						description='For anyone getting started with their design system'
+						price='0$'
+						btnLabel='Sign up for free'
+					/>
+					<Box
+						title='Starter'
+						description='More collaboration and customization for growing design system teams'
+						price='89$'
+						btnLabel='Request a demo'
+					/>
+					<Box
+						type='dark'
+						title='Enterprise'
+						description='Design system management and dedicated support for larger organizations'
+						price='from 299$'
+						btnLabel='Contact our Sales Team'
+					/>
+				</Section>
 			</main>
 
 			<Footer />

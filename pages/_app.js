@@ -10,6 +10,7 @@ import "../styles/button.component.css";
 import "../styles/card.component.css";
 import "../styles/footer.component.css";
 import "../styles/teaser.component.css";
+import "../styles/box.component.css";
 
 export default function MyApp({ Component, pageProps }) {
 	return <Component {...pageProps} />;

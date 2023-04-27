@@ -1,0 +1,42 @@
+.box {
+  align-items: center;
+  border-radius: var(--border-radius-200);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: var(--space-800);
+  position: relative;
+}
+
+.box--light {
+  background-color: var(--color-primary-500);
+}
+
+.box--dark {
+  background-color: var(--color-neutral-500);
+  color: var(--color-white);
+}
+
+.box__content {
+  margin-bottom: var(--space-500);
+}
+
+.box__title {
+  font-size: var(--font-size-800);
+  font-weight: var(--font-weight-700);
+}
+
+.box__price {
+  font-size: var(--font-size-800);
+  font-weight: var(--font-weight-700);
+  margin-top: var(--space-300);
+}
+
+.box__price span {
+  display: block;
+  font-size: var(--font-size-200);
+}
+
+.box .btn {
+  margin-top: auto;
+}
