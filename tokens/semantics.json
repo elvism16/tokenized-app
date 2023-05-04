@@ -9,11 +9,11 @@
       "type": "color"
     },
     "primary": {
-      "value": "{primary}",
+      "value": "{color.primary.brand}",
       "type": "color"
     },
     "secondary": {
-      "value": "{secondary}",
+      "value": "{color.secondary.brand}",
       "type": "color"
     },
     "gray": {
@@ -85,11 +85,11 @@
   },
   "link": {
     "primary": {
-      "value": "{primary}",
+      "value": "{color.primary.brand}",
       "type": "color"
     },
     "secondary": {
-      "value": "{secondary}",
+      "value": "{color.secondary.brand}",
       "type": "color"
     },
     "secondaryHover": {
@@ -113,11 +113,11 @@
       "type": "color"
     },
     "darkHover": {
-      "value": "{primary}",
+      "value": "{color.primary.brand}",
       "type": "color"
     },
     "darkActive": {
-      "value": "{primary}",
+      "value": "{color.primary.brand}",
       "type": "color"
     },
     "light": {
@@ -125,21 +125,21 @@
       "type": "color"
     },
     "lightHover": {
-      "value": "{secondary}",
+      "value": "{color.secondary.brand}",
       "type": "color"
     },
     "lightActive": {
-      "value": "{secondary}",
+      "value": "{color.secondary.brand}",
       "type": "color"
     }
   },
   "icon": {
     "primary": {
-      "value": "{primary}",
+      "value": "{color.primary.brand}",
       "type": "color"
     },
     "secondary": {
-      "value": "{secondary}",
+      "value": "{color.secondary.brand}",
       "type": "color"
     },
     "gray": {
@@ -165,17 +165,17 @@
       "type": "color"
     },
     "primary": {
-      "value": "{primary}",
+      "value": "{color.primary.brand}",
       "type": "color"
     },
     "secondary": {
-      "value": "{secondary}",
+      "value": "{color.secondary.brand}",
       "type": "color"
     }
   },
   "border": {
     "primary": {
-      "value": "{color.primary.700}",
+      "value": "{color.primary.brand}",
       "type": "color"
     },
     "primaryHover": {
@@ -187,7 +187,7 @@
       "type": "color"
     },
     "secondary": {
-      "value": "{color.secondary.700}",
+      "value": "{color.secondary.brand}",
       "type": "color"
     },
     "secondaryHover": {
@@ -226,7 +226,7 @@
   "background": {
     "interaction": {
       "primary": {
-        "value": "{color.primary.700}",
+        "value": "{color.primary.brand}",
         "type": "color"
       },
       "primaryHover": {
@@ -238,7 +238,7 @@
         "type": "color"
       },
       "secondary": {
-        "value": "{color.secondary.700}",
+        "value": "{color.secondary.brand}",
         "type": "color"
       },
       "secondaryHover": {
@@ -256,11 +256,11 @@
     },
     "section": {
       "primary": {
-        "value": "{color.primary.700}",
+        "value": "{color.primary.brand}",
         "type": "color"
       },
       "secondary": {
-        "value": "{color.secondary.700}",
+        "value": "{color.secondary.brand}",
         "type": "color"
       },
       "gray": {
@@ -310,13 +310,5 @@
   "copy": {
     "value": "{font.line-height.default}",
     "type": "lineHeights"
-  },
-  "primary": {
-    "value": "{color.primary.700}",
-    "type": "color"
-  },
-  "secondary": {
-    "value": "{color.secondary.700}",
-    "type": "color"
   }
 }
