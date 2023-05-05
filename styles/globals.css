@@ -26,8 +26,8 @@ body {
 }
 
 body {
-	background-color: var(--color-white);
-	color: var(--semantics-color-text-dark);
+	background-color: var(--background-light);
+	color: var(--text-dark);
 	font-family: var(--font-family-sans);
 	font-size: 100%;
 	line-height: var(--font-line-height-default);
@@ -37,8 +37,8 @@ body {
 
 a {
 	color: inherit;
-	color: var(--color-primary-700);
-	text-decoration: var(--font-text-decoration-underline);
+	color: var(-link-primary);
+	text-decoration: underline;
 }
 
 img {
@@ -76,19 +76,19 @@ ul {
 h1 {
 	font-family: "GTSuper", serif;
 	font-size: var(--font-size-900);
-	line-height: var(--semantics-line-height-heading);
+	line-height: var(--heading);
 }
 
 h2 {
 	font-family: "GTSuper", serif;
 	font-size: var(--font-size-700);
-	line-height: var(--semantics-line-height-heading);
+	line-height: var(--heading);
 }
 
 h3 {
 	font-family: "GTSuper", serif;
 	font-size: var(--font-size-500);
-	line-height: var(--semantics-line-height-heading);
+	line-height: var(--heading);
 }
 
 .container {

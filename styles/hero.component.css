@@ -14,9 +14,9 @@
 }
 
 .hero__headline {
-	color: var(--semantics-color-headline-light);
+	color: var(--headline-light);
 	font-size: clamp(3rem, 1rem + 8vw, 7rem);
-	line-height: var(--semantics-line-height-heading);
+	line-height: var(--heading);
 	text-align: center;
 	transition: var(--transition-200);
 }
@@ -27,7 +27,7 @@
 }
 
 .hero__byline {
-	color: var(--semantics-color-text-light);
+	color: var(--text-light);
 	font-size: var(--font-size-400);
 }
 
@@ -37,7 +37,7 @@
 
 .hero__grid--has-image .hero__headline {
 	font-size: clamp(3rem, 1rem + 8vw, 5rem);
-	text-align: var(--font-text-align-left);
+	text-align: left;
 }
 
 @media (min-width: 48em) {

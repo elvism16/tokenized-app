@@ -9,12 +9,13 @@
 }
 
 .box--light {
-  background-color: var(--color-primary-500);
+  background-color: var(--background-section-primary);
+  color: var(--text-light);
 }
 
 .box--dark {
-  background-color: var(--color-neutral-500);
-  color: var(--color-white);
+  background-color: var(--background-section-dark);
+  color: var(--text-light);
 }
 
 .box__content {

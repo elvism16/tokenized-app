@@ -21,7 +21,7 @@ blockquote {
 }
 
 .article {
-	color: var(--semantics-color-font-copy-on-light);
+	color: var(--text-dark);
 }
 
 article p {
@@ -79,7 +79,7 @@ blockquote {
 
 .article a {
 	color: currentColor;
-	text-decoration-color: var(--color-primary);
+	text-decoration-color: var(--link-primary);
 	text-decoration-thickness: 0.3ex;
 	text-underline-offset: 0.3ex;
 	transition: var(--transition-100);
@@ -88,8 +88,9 @@ blockquote {
 .article a:hover,
 .article a:focus,
 .article a:active {
-	background-color: var(--color-primary-700);
+	background-color: var(--background-interaction-primary-hover);
 	color: var(--color-white);
+	text-decoration-color: var(--link-primary-hover);
 	transition: var(--transition-200);
 }
 
@@ -97,9 +98,9 @@ blockquote {
 	background: linear-gradient(
 		315deg,
 		var(--color-primary-700) 25%,
-		var(--color-secondary-700)
+		var(--color-secondary-400)
 	);
-	background-color: var(--color-primary-700);
+	background-color: var(--color-primary-brand);
 }
 
 .article__hero {
@@ -107,7 +108,7 @@ blockquote {
 }
 
 .article__hero-headline {
-	color: var(--color-neutral-200);
+	color: var(--headline-light);
 	position: absolute;
 	bottom: 1vh;
 	z-index: var(--z-index-1);

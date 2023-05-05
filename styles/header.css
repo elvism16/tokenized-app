@@ -1,5 +1,5 @@
 .header-wrapper {
-	background: var(--color-neutral-700);
+	background: var(--background-dark);
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -9,7 +9,7 @@
 }
 
 .header-wrapper:has(.is-open) .claim {
-	fill: var(--color-primary-700);
+	fill: var(--color-secondary-brand);
 	transition: var(--transition-200);
 }
 

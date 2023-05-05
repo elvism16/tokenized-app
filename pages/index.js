@@ -5,6 +5,7 @@ import Hero from "../components/hero/hero";
 import Teaser from "../components/teaser/teaser";
 import Box from "../components/box/box";
 import Footer from "../components/footer/footer";
+// import { SVGSource, SVG } from "../components/svg/svg";
 
 export default function Home() {
 	return (
@@ -20,14 +21,15 @@ export default function Home() {
 					<Hero
 						headline='Bring your design system to life'
 						byline='Whether you’re sending big files for fun or delivering work for clients—keep creative projects moving forward with WeTransfer.'
-						btnLabelPrimary='Get started'
-						imgSrc='/img/welcome02.png'
+						btnLabelSecondary='Get started'
+						imgSrc='/img/graphic01.svg'
 						imgAlt='design tokens - what are they?'
+						// svgSource='graphic01'
 					/>
 				</Section>
 				<Section>
 					<Teaser
-						imgSrc='/img/welcome04.png'
+						imgSrc='/img/graphic03.svg'
 						imgAlt='design tokens - what are they?'
 						kicker='All in one place'
 						headline='Build a design system you can use — fast'
@@ -37,7 +39,7 @@ export default function Home() {
 				<Section>
 					<Teaser
 						type='reverse'
-						imgSrc='/img/welcome05.png'
+						imgSrc='/img/graphic04.svg'
 						imgAlt='design tokens - what are they?'
 						kicker='Make it easy'
 						headline='Unite design and engineering in one design system'
@@ -46,7 +48,7 @@ export default function Home() {
 				</Section>
 				<Section>
 					<Teaser
-						imgSrc='/img/welcome06.png'
+						imgSrc='/img/graphic05.svg'
 						imgAlt='design tokens - what are they?'
 						kicker='Collaboration is the key'
 						headline='Make team-wide adoption and collaboration easy'

@@ -1,40 +1,40 @@
 .btn {
 	border-radius: var(--border-radius-200);
-	color: var(--color-white);
+	color: var(--text-light);
 	cursor: pointer;
 	display: inline-block;
 	font-weight: var(--font-weight-700);
 	padding: var(--space-150) var(--space-200);
-	text-decoration: var(--font-text-decoration-none);
+	text-decoration: none;
 	text-align: left;
 	transition: var(--transition-200);
 }
 
 .btn--primary {
-	background-color: var(--semantics-color-background-interaction-primary);
-	border: var(--border-width-200) solid var(--semantics-color-border-brand);
+	background-color: var(--background-interaction-primary);
+	border: var(--border-width-200) solid var(--border-primary);
 }
 
 .btn--primary:hover,
 .btn--primary:focus,
 .btn--primary:active {
-	background-color: var(--color-primary-600);
-	border-color: var(--color-primary-600);
+	background-color: var(--background-interaction-primary-hover);
+	border-color: var(--border-primary-hover);
 	transition: var(--transition-200);
 }
 
 .btn--secondary {
-	background-color: var(--semantics-color-background-interaction-primary-inverted);
-	border: var(--border-width-200) solid var(--semantics-color-border-brand);
-	color: var(--semantics-color-text-brand);
+	background-color: var(--background-interaction-secondary);
+	border: var(--border-width-200) solid var(--border-secondary);
+	color: var(--text-light);
 }
 
 .btn--secondary:hover,
 .btn--secondary:focus,
 .btn--secondary:active {
-	background-color: var(--color-primary-600);
-	border-color: var(--color-primary-600);
-	color: var(--color-white);
+	background-color: var(--background-interaction-secondary-hover);
+	border-color: var(--border-secondary-hover);
+	color: var(--text-dark);
 	transition: var(--transition-200);
 }
 

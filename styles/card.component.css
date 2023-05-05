@@ -17,7 +17,7 @@
 
 .card__body {
 	position: relative;
-	text-align: var(--font-text-align-center);
+	text-align: center;
 }
 
 .card__blog .card__body {
@@ -35,8 +35,8 @@
 	display: inline-block;
 	font-weight: var(--font-weight-900);
 	padding: var(--space-100);
-	text-transform: var(--font-text-case-uppercase);
-	text-decoration: var(--font-text-case-none);
+	text-transform: uppercase;
+	text-decoration: none;
 }
 
 .card__category:hover,
@@ -50,22 +50,22 @@
 	font-weight: var(--font-weight-900);
 	margin: var(--space-200) 0 var(--space-100);
 	text-align: left;
-	text-transform: var(--font-text-case-uppercase);
+	text-transform: uppercase;
 }
 
 .card__headline a {
-	color: var(--semantics-color-headline-dark);
-	text-decoration: var(--font-text-case-none);
+	color: var(--headline-dark);
+	text-decoration: none;
 }
 
 .card__headline a:hover,
 .card__headline a:focus,
 .card__headline a:active {
-	color: var(--color-primary-700);
+	color: var(--link-primary-hover);
 }
 
 .card__text {
-	color: var(--semantics-color-text-dark);
+	color: var(--text-dark);
 	font-size: var(--font-size-200);
 	text-align: left;
 }

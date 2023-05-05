@@ -46,7 +46,7 @@
 }
 
 .nav-item > a {
-	color: var(--color-primary-700);
+	color: var(--link-secondary);
 	padding: var(--space-150);
 	position: relative;
 	text-decoration: none;
@@ -55,7 +55,7 @@
 
 .nav-item > a:hover,
 .nav-item > a:focus {
-	color: var(--color-white);
+	color: var(--link-secondary-hover);
 	transition: var(--transition-200);
 }
 
@@ -139,6 +139,6 @@
 }
 
 .menu-button.is-open .icon {
-	fill: var(--color-primary-600);
+	fill: var(--icon-secondary);
 	transition: var(--transition-200);
 }
