@@ -34,7 +34,7 @@
     }
   },
   "accent": {
-    "error": {
+    "error-test": {
       "value": "{color.accent.error.red200}",
       "type": "color"
     },
@@ -305,7 +305,16 @@
   },
   "heading": {
     "value": "{font.line-height.1}",
-    "type": "lineHeights"
+    "type": "lineHeights",
+    "level1": {
+      "value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.900}",
+        "lineHeight": "{font.line-height.1}",
+        "fontSize": "{font.size.900}"
+      },
+      "type": "typography"
+    }
   },
   "copy": {
     "value": "{font.line-height.default}",

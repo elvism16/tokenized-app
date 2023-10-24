@@ -1,6 +1,7 @@
 {
   "tokenSetOrder": [
     "globals",
-    "semantics"
+    "semantics",
+    "font"
   ]
 }

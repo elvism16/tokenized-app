@@ -275,6 +275,16 @@
         "value": "48px",
         "type": "fontSizes"
       },
+      "1000": {
+        "value": "3.75rem",
+        "type": "fontSizes",
+        "description": "Display 60px"
+      },
+      "1100": {
+        "value": "4.25rem",
+        "type": "fontSizes",
+        "description": "Display 68px"
+      },
       "075": {
         "value": "14px",
         "type": "fontSizes"
@@ -315,6 +325,10 @@
       },
       "100": {
         "value": "1rem",
+        "type": "lineHeights"
+      },
+      "125": {
+        "value": "1.25rem",
         "type": "lineHeights"
       },
       "150": {
@@ -505,6 +519,25 @@
           "type": "other"
         }
       }
+    }
+  },
+  "shadow": {
+    "80": {
+      "value": {
+        "x": "0",
+        "y": "8",
+        "blur": "8",
+        "spread": "0",
+        "color": "rgba(48,49,51,0.08)",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    }
+  },
+  "size": {
+    "100": {
+      "value": "100px",
+      "type": "dimension"
     }
   }
 }
