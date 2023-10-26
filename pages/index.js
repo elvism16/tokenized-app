@@ -5,7 +5,6 @@ import Hero from "../components/hero/hero";
 import Teaser from "../components/teaser/teaser";
 import Box from "../components/box/box";
 import Footer from "../components/footer/footer";
-// import { SVGSource, SVG } from "../components/svg/svg";
 
 export default function Home() {
 	return (
